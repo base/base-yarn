@@ -49,6 +49,12 @@ This plugin exposes the full API from the [yarn-api](https://github.com/jonschli
 
 ## About
 
+### Related projects
+
+* [base-plugins](https://www.npmjs.com/package/base-plugins): Adds 'smart plugin' support to your base application. | [homepage](https://github.com/node-base/base-plugins "Adds 'smart plugin' support to your base application.")
+* [base](https://www.npmjs.com/package/base): Framework for rapidly creating high quality node.js applications, using plugins like building blocks | [homepage](https://github.com/node-base/base "Framework for rapidly creating high quality node.js applications, using plugins like building blocks")
+* [yarn-api](https://www.npmjs.com/package/yarn-api): Basic API for yarn. | [homepage](https://github.com/jonschlinkert/yarn-api "Basic API for yarn.")
+
 ### Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).
