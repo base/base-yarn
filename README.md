@@ -28,6 +28,8 @@ base.use(yarn());
 
 ## Examples
 
+See the [examples directory](./examples) for code examples that can be run.
+
 ```js
 base.yarn.add(['isobject', 'micromatch'], function(err) {
   if (err) throw err;
