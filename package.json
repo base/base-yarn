@@ -1,0 +1,60 @@
+{
+  "name": "base-yarn",
+  "description": "Plugin for adding yarn methods to your Base application.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/node-base/base-yarn",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "node-base/base-yarn",
+  "bugs": {
+    "url": "https://github.com/node-base/base-yarn/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-valid-app": "^0.3.0",
+    "yarn-api": "^1.0.0"
+  },
+  "devDependencies": {
+    "base": "^0.13.0",
+    "gulp-format-md": "^0.1.12"
+  },
+  "keywords": [
+    "api",
+    "app",
+    "application",
+    "base",
+    "base-plugin",
+    "baseplugin",
+    "building-blocks",
+    "create",
+    "framework",
+    "plugin",
+    "plugins",
+    "tool",
+    "toolkit",
+    "tools",
+    "yarn"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
